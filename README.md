@@ -1,13 +1,11 @@
 # Display-finass-data-export
+This tool reads the exported `.mdb` data and provides a modern read-only UI to explore that data locally.
+
 ## Disclaimer
 
 This is an unofficial personal tool for reading data exported from FINASS (Finanzberatersoftware GmbH, https://finanzberatersoftware.de/). It is not affiliated with, endorsed by, or associated with FINASS or Finanzberatersoftware GmbH. No FINASS software or proprietary data is distributed with this repository.
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Overall goal
-
-The FINASS software is terminating its old product, where users could save their customers, contracts and documents / messages relevant for these contracts. This tool reads the exported `.mdb` database and provides a modern read-only UI to explore that data locally.
 
 ## Initial Set Up (only done once)
 ### Configure Finass Data
