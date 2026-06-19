@@ -45,7 +45,11 @@ Programm --> Einstellungen --> Admin Einstellungen --> Vollständiger Datenexpor
 
 ### Install dependencies
 1. Install [Node.js](https://nodejs.org/en/download)
-2. Run `npm i` within this folder (a new folder `node_modules` should be present now)
+2. Run `npm i` within a terminal pointing to this folder (a new folder `node_modules` should be present now)
+
+> **Windows: "execution of scripts is disabled"** — If you see *"cannot be loaded because running scripts is disabled on this system"* in PowerShell, run this once in PowerShell as Administrator: `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`. Alternatively, use the regular Windows **Command Prompt** (`cmd.exe`) or **Git Bash** instead — they are not affected by this policy.
+
+
 
 ## How to run locally
 
