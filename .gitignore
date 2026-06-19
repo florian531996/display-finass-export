@@ -1,0 +1,23 @@
+.claude
+.vscode
+*.mdb
+node_modules/
+
+er-diagram.html
+er-relevant-parts.mmd
+db-summary.md
+
+finass-data/*
+!finass-data/db/
+!finass-data/documents/
+
+# Ignore generated files in db folder
+finass-data/db/*
+!finass-data/db/generate-er.js
+!finass-data/db/package.json
+!finass-data/db/package-lock.json
+!finass-data/db/.gitkeep
+
+# Keep documents folder structure but ignore contents
+finass-data/documents/*
+!finass-data/documents/.gitkeep
