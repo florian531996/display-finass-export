@@ -1,0 +1,19 @@
+{
+  "name": "display-finass-export",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "app",
+    "finass-data/db"
+  ],
+  "scripts": {
+    "start": "concurrently -n backend,app -c blue,green \"npm run start:backend\" \"npm run start:app\"",
+    "start:backend": "npm start --workspace=backend",
+    "start:app": "npm run dev --workspace=app",
+    "generate-er": "npm run generate --workspace=finass-data/db"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
+
