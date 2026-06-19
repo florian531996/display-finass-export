@@ -1,6 +1,4 @@
-# display-finass-export
-play around with finass db data and react
-
+# Display-finass-data-export
 ## Disclaimer
 
 This is an unofficial personal tool for reading data exported from FINASS (Finanzberatersoftware GmbH, https://finanzberatersoftware.de/). It is not affiliated with, endorsed by, or associated with FINASS or Finanzberatersoftware GmbH. No FINASS software or proprietary data is distributed with this repository.
