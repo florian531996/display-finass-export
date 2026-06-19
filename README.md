@@ -24,12 +24,13 @@ The file `config.json` in the repository root controls where the app looks for d
 | `finassDocumentsPath` | Path to the `documents` folder containing the document subfolders (`00001/`, `00002/`, …) |
 
 Both paths can be **relative** (resolved from the repository root) or **absolute** (e.g. `C:/Users/you/Documents/FINASS_DATA_EXPORT.mdb`).
+
 ⚠️ Paths must use `/` and not `\` as this will be considered as an escape character.
 
 #### Locating the documents folder
 The `documents` folder structure looks like this:
 ```
-documents/
+FINASS_dokumente/
   ├── 00001/
   │   ├── 24534215286486.EML
   │   ├── 24534215037154.pdf
